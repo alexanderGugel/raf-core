@@ -1,0 +1,31 @@
+{
+  "name": "raf-core",
+  "version": "0.0.0",
+  "main": "raf-core.js",
+  "keywords": [
+    "raf",
+    "events",
+    "client",
+    "browser",
+    "core",
+    "beat"
+  ],
+  "homepage": "https://github.com/alexanderGugel/raf-core",
+  "authors": [
+    "Alexander Gugel <alexander.gugel@gmail.com>"
+  ],
+  "description": "Request Animation Frame as a beating heart.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "raf-core",
+  "version": "0.0.0",
+  "description": "Request Animation Frame as a beating heart.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "browserify index.js -o raf-core.js && uglifyjs raf-core.js -c \"evaluate=false\" --comments \"/    .*/\" -m --source-map raf-core-min.js.map -o raf-core-min.js"
+  },
+  "author": "Alexander Gugel <alexander.gugel@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^7.0.0",
+    "mocha": "^2.0.1",
+    "uglify-js": "^2.4.15"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderGugel/raf-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/raf-core/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/raf-core",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "raf",
+    "events",
+    "client",
+    "browser",
+    "core",
+    "beat"
+  ]
+}
